@@ -213,7 +213,7 @@ test("Calendar validations",async({page})=>
 
 
 
-test.only("Alerts pop handling", async({page})=>{
+test("Alerts pop handling", async({page})=>{
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
     // await page.goto('https://google.com');
     // await page.goBack();
